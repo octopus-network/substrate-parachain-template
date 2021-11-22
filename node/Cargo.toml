@@ -36,6 +36,10 @@ jsonrpc-core = "18.0.0"
 # Local Dependencies
 parachain-template-runtime = { path = "../runtime" }
 
+# add pallet ibc rpc
+pallet-ibc-rpc = { git = "https://github.com/octopus-network/substrate-ibc", branch = "dv-ibc-dev-0.9.12", default-features = false}
+pallet-ibc-runtime-api = { git = "https://github.com/octopus-network/substrate-ibc", branch = "dv-ibc-dev-0.9.12", default-features = false}
+
 # Substrate Dependencies
 frame-benchmarking = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.12" }
 frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.12" }
