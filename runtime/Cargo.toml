@@ -23,8 +23,8 @@ smallvec = "1.6.1"
 
 # Local Dependencies
 pallet-template = { path = "../pallets/template", default-features = false }
-pallet-ibc = { git = "https://github.com/octopus-network/substrate-ibc", branch = "dv-ibc-dev-0.9.12", default-features = false}
-pallet-ibc-runtime-api = { git = "https://github.com/octopus-network/substrate-ibc", branch = "dv-ibc-dev-0.9.12", default-features = false}
+pallet-ibc = { git = "https://github.com/octopus-network/substrate-ibc", branch = "dv-ibc-dev-0.9.12-tag", default-features = false}
+pallet-ibc-runtime-api = { git = "https://github.com/octopus-network/substrate-ibc", branch = "dv-ibc-dev-0.9.12-tag", default-features = false}
 
 # Substrate Dependencies
 ## Substrate Primitive Dependencies
